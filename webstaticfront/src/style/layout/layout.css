@@ -1,0 +1,51 @@
+#root{
+  height: 100%;
+}
+.displayNone{
+  display: none;
+}
+.display{
+  display: block;
+}
+.layoutBd .logo {
+    height: 32px;
+    border-radius: 6px;
+    margin: 14px;
+  }
+  .layoutBd .logo span{
+    padding-left: 20px;
+    font-size: 17px;
+    color:#fff;
+  }
+  .layoutBd .logopic{
+    height: 30px;
+  }
+  .layoutBd .ant-layout-sider-collapsed .anticon {
+    font-size: 16px;
+    margin-left: 8px;
+  }
+  .ant-layout-sider-trigger{
+    position: absolute!important;
+  }
+  .ant-layout.ant-layout-has-sider{
+    height: 100%;
+  }
+  .layoutBd .ant-layout-sider-collapsed .nav-text {
+    display: none;
+  }
+  
+  .layoutBd .ant-layout-sider-collapsed .ant-menu-submenu-vertical > .ant-menu-submenu-title:after {
+    display: none;
+  }
+  .ant-menu-inline, .ant-menu-vertical, .ant-menu-vertical-left{
+    border-right:none!important;
+  }
+  /*定制主题色*/
+  .themepicker{
+    position: absolute;
+    right: 20px;
+    top:20%;
+  }
+  .ant-layout-sider-trigger{
+    display: none !important;
+  }

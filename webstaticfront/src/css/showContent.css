@@ -1,0 +1,165 @@
+.listContainer{
+    width: 100%;
+    height: 100%;
+    background-color: #f0f2f5;
+}
+
+.head{
+    width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background: #fdfdfd;
+	color: #333;
+    border-bottom: 1px solid rgba(0,21,41,.08);
+    box-shadow: 0 0 4px 0 rgba(0,21,41,.08);
+	position: relative;
+}
+
+.title{
+    font-size: 16px;
+    padding-left: 15px; 
+    font-weight: bold;
+    font-family: "microsoft yahei";
+}
+.content{
+    margin: 15px;
+    box-sizing: border-box;
+    padding: 22px 18px;
+    background-color: #fff;
+    box-shadow: 0 0 4px 0 rgba(0,21,41,.08);
+}
+
+.viewHeader{
+	height:48px;
+	padding-left: 38px;
+	padding-right: 20px;
+	line-height: 48px;
+	font-family: "PingFang sc";
+	font-size: 16px;
+    color:#333;
+    border-bottom: 1px solid #f3f3f7;
+}
+.headerL{
+	float: left;
+}
+.headerR{
+    float: right;
+    line-height: 46px;
+    
+}
+.headerR button{
+	margin-left: 12px;
+	/* width:72px; */
+}
+.headerR button.qx{
+	background:#97979f;
+	color:#fff;
+	border:none;
+}
+.ruleContent{
+	padding-top: 15px;
+}
+/* 通用行样式 */
+.ruleContent .rowdiv{
+	line-height: 60px;
+}
+.titleInput{
+    width: 45% !important;
+}
+.selectTree{
+    width: 30% !important;
+    top: 0 !important;
+}
+.chooseSpan{ width: 82px !important; }
+.chooseSelect{
+    width: 25% !important;
+    top: 0 !important;
+    margin-right: 35px !important;
+}
+.radiusInput{
+    width: 15% !important;
+}
+.phoneInput{
+    width: 30% !important;
+}
+.textInput{
+    width: 50% !important;
+    height: 30px;
+}
+.EditorR{
+    margin-top: 34px !important;
+}
+.ruleContent .rowdiv .spanLabel,.editorRow .spanLabel{
+    width: 128px;
+    text-align: right; 
+    margin-right: 16px;
+    display: inline-table;
+    font-weight: bold;
+    font-size: 14px; 
+    color: #333;
+}
+/* 富文本样式 */
+.editorRow{
+    display: flex;
+    flex-direction: row;
+}
+
+/* 按钮图标 */
+.parBtn{
+    position: relative;
+    top: 9px;
+    width: 68px !important;
+    height: 30px !important;
+}
+.parBtn .keepBtn{
+    position: absolute;
+    top:-1px;
+    left:-2px;
+}
+.parBtn .returnBtn{
+    position: absolute;
+    top:-1px;
+    left:-1px;
+    width: 68px;
+    height: 30px;
+}
+.richText{
+    display: inline-table;
+    width: 800px; 
+    height: 465px;
+}
+.TextareaR{
+    margin-top: 13px!important;
+}
+.ant-modal-header{
+    height: 56px;
+}
+.ant-modal-footer{
+    line-height: 50px;
+}
+.editContent{
+    padding-top: 15px;
+    margin-bottom: 55px;
+}
+.editContent .editrowdiv{
+    line-height: 25px;
+    margin-top: 13px;
+    padding-left: 55px;
+}
+.editContent .editrowdiv .clabel{
+	width: 30px;
+    text-align: right; 
+    margin-right: 12px;
+    font-size: 14px; 
+    color: #333;
+}
+.toppageContent{
+    background:#fff;
+    position: relative;
+    height: 220px;
+}
+.bottompageContent{
+    background:#fff;
+    height: 600px;
+    position: relative;
+}

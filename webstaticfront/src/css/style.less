@@ -1,0 +1,39 @@
+@primary-color: #1890ff;
+
+.root {
+    display: flex;
+    align-items: center;
+    color: @primary-color;
+
+    .picker {
+        padding-top: 4px;
+    }
+}
+.right {
+    display: flex;
+    align-items: stretch;
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 100%;
+    .action {
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+        padding: 0 6px;
+        transition: all @transitionDuration;
+        height: 100%;
+        color: #fff;
+
+        i {
+            font-size: 16px;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+
+        //&:global(.ant-popover-open),
+        //&:hover {
+        //    background: lighten(@primary-color, 40%);
+        //}
+    }
+
+}
